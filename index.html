@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="meadiaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><b>SHAILJA PATIL</b></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+    <!-- NAV BAR FOR PHONE -->
+    <nav id="hamburger-nav">
+        <div class="logo">Shailja Patil</div>
+        <div class="hamburger-menue">
+            <div class="hamburger-icon" onclick="toggleMenue()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menue-links">
+                <li><a href="#about" onclick="toggleMenue()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenue()">experience</a></li>
+                <li><a href="#projects" onclick="toggleMenue()">projects</a></li>
+                <li><a href="#contact" onclick="toggleMenue()">contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/pic2.png" alt="jhon doe pic ">
+        </div>
+        <div class="section__text">
+            <p class="section_text__p1">Hello, I'm</p>
+            <h1 class="title">Shailja Patil</h1>
+            <p class="section__text__p2">Final Yr Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/ShailjaPatil_Resume1.2CLG.pdf')">Download CV</button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png"
+                 alt="my linkedin profile" 
+                 class="icon" 
+                 onclick="location.href='https://www.linkedin.com/in/shailja-patil-a09a96209/'">
+                 <img src="./assets/github.png"
+                 alt="my github profile" 
+                 class="icon" 
+                 onclick="location.href='https://github.com/ShailjaPatil'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic1.jpg" 
+                alt="profile picture"
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png" 
+                        alt="Experience icon" 
+                        class="icon"/>
+                        <h3>Education</h3>
+                        <p class="">B.Tech CSE <br> Final Yr Student</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="Education icon" 
+                        class="icon"/>
+                        <h3>Achievement</h3>
+                        <p class="">AIR 618 <br>Gate'2024</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am currently a Bachelor's student in CSE at Acropolis Institute of Technology and Research, Indore, having a strong fundamental knowledge of Computer Science Core Subjects and strive to acquire the necessary skills to advance further in the field. </p>
+
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets//checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML, CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>BOOTSTRAP </h3>
+                                <p>Intermediate <a href="https://www.linkedin.com/posts/shailja-patil-a09a96209_activity-6992401587272863744-3jsM?utm_source=share&utm_medium=member_desktop">certificate</a></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>NodeJS</h3>
+                                <p>Basic <a href="https://www.linkedin.com/posts/shailja-patil-a09a96209_activity-7001890597045235712-C5Cu?utm_source=share&utm_medium=member_desktop">certificate</a></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Basic <a href="https://www.linkedin.com/posts/shailja-patil-a09a96209_activity-7001890597045235712-C5Cu?utm_source=share&utm_medium=member_desktop">certificate</a></p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skill Set</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets//checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>C/C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Learning</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>DBMS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article> 
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Virtual Internship</h3>
+                                <p><a href="https://www.linkedin.com/posts/shailja-patil-a09a96209_learning-activity-6960548140001226752-Te4H?utm_source=share&utm_medium=member_desktop">certificate</a></p>
+                            </div>
+                        </article>    
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>AWS</h3>
+                                <p>Cloud Foundations </p>
+                            </div>
+                        </article>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Project1.png" 
+                    alt="Project1"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">E-commerce website</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShailjaPatil/e-commerce_website'">
+                        Github
+                    </button>
+                    <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShailjaPatil/e-commerce_website'">
+                        Live Demo
+                    </button> -->
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project2.png" 
+                    alt="Project2"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Web UI Restaurant Site</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShailjaPatil/BOOTSTRAP4_learn'">
+                        Github
+                    </button>
+                    <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShailjaPatil/e-commerce_website'">
+                        Live Demo
+                    </button> -->
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Project3.png" 
+                    alt="Project3"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Event website</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShailjaPatil/axploreEasy'">
+                        Github
+                    </button>
+                    <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ShailjaPatil/e-commerce_website'">
+                        Live Demo
+                    </button> -->
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:shailja290802@gmail.com">shailja290802@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/shailja-patil-a09a96209/">LinkdIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-cotainer">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Shailja Patil. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
